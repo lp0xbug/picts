@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T05:03:06.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" version="16.2.2" etag="WvSHfs69XHuwhQo58jq-" type="github"><diagram id="udEKVBNJN14dP0pR58ji">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-07T06:10:47.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="-CL6LjOkCjN6NqOz8OCe" version="16.2.2" type="github">
+  <diagram id="udEKVBNJN14dP0pR58ji" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="08nhfXRaOaY2Djz_VRXw-1" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08nhfXRaOaY2Djz_VRXw-2" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08nhfXRaOaY2Djz_VRXw-3" value="Rich OS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08nhfXRaOaY2Djz_VRXw-4" value="Trust Service" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08nhfXRaOaY2Djz_VRXw-5" value="Trust Service" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08nhfXRaOaY2Djz_VRXw-6" value="Trusted OS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000033;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08nhfXRaOaY2Djz_VRXw-7" value="firmware/SCM(Secury Monitor)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000033;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08nhfXRaOaY2Djz_VRXw-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08nhfXRaOaY2Djz_VRXw-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
