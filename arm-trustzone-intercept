@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T09:53:55.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="N6AVP_NTI8Z9lMdJrS9c" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-08T02:32:43.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="wB6i-xiMQacDLMRYl3Bc" version="16.2.2" type="github">
   <diagram id="1TDS6YHVe6aLJ4PB8jt_" name="Page-1">
     <mxGraphModel dx="2272" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,10 +13,10 @@
         <mxCell id="B4FGVxNARVRreEISV2Zf-3" value="Rich OS&lt;br&gt;IRQ_vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="220" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B4FGVxNARVRreEISV2Zf-4" value="Trust Service" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#000033;" vertex="1" parent="1">
+        <mxCell id="B4FGVxNARVRreEISV2Zf-4" value="Trusted Service" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#000033;" vertex="1" parent="1">
           <mxGeometry x="440" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B4FGVxNARVRreEISV2Zf-5" value="Trust Service" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#000033;" vertex="1" parent="1">
+        <mxCell id="B4FGVxNARVRreEISV2Zf-5" value="Trusted Service" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#000033;" vertex="1" parent="1">
           <mxGeometry x="600" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B4FGVxNARVRreEISV2Zf-6" value="Trusted OS&lt;br&gt;IRQ_vector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000033;fontColor=#FFFFFF;" vertex="1" parent="1">
