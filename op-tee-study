@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T15:05:08.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zv5OExQBhSq03HNFk9kq" version="17.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-16T15:10:09.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IK6ldxyi7fZqFNJSxCcs" version="17.4.5" type="github" pages="4">
   <diagram id="OMUdGuVzEnMAW-kTd0nw" name="Page-1">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -300,11 +300,17 @@
         <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-2" value="&lt;font face=&quot;consolas, courier new, monospace&quot;&gt;thread_alloc_and_run&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;strokeWidth=2;fontColor=#330000;" vertex="1" parent="1">
           <mxGeometry x="140" y="205" width="220" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZT1yG5SlVoaKDyJ_5Yj-6" target="2ZT1yG5SlVoaKDyJ_5Yj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-6" value="&lt;font face=&quot;consolas, courier new, monospace&quot;&gt;__thread_alloc_and_run&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;strokeWidth=2;fontColor=#330000;" vertex="1" parent="1">
           <mxGeometry x="140" y="300" width="220" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-8" value="&lt;div&gt;__thread_alloc_and_run最后一位为pc寄存器的值：&lt;/div&gt;&lt;div&gt;__thread_alloc_and_run(a0, a1, a2, a3, a4, a5, 0, 0,&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;thread_std_smc_entry);&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="250" y="335" width="200" height="110" as="geometry" />
+        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-8" value="&lt;div&gt;__thread_alloc_and_run最后一位为pc寄存器的值：&lt;/div&gt;&lt;div&gt;__thread_alloc_and_run(a0, a1, a2, a3, a4, a5, 0, 0,&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;thread_std_smc_entry);&lt;/div&gt;&lt;div&gt;该函数主要步骤：&lt;/div&gt;&lt;div&gt;1、查找可用的thread，thread配置为1,4,8或者16&lt;/div&gt;&lt;div&gt;2、设置thread的寄存器&lt;/div&gt;&lt;div&gt;3、拉起这个thread&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="345" width="270" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-9" value="&lt;font face=&quot;consolas, courier new, monospace&quot;&gt;init_regs(threads + n, a0, a1, a2, a3, a4, a5, a6, a7, pc)&lt;br&gt;thread_resume(&amp;amp;threads[n].regs);&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;strokeWidth=2;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="105" y="550" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
