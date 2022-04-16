@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T16:42:56.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fOAQ0L8HfcQ3O1_yNer-" version="17.4.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-16T15:05:08.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zv5OExQBhSq03HNFk9kq" version="17.4.5" type="github" pages="4">
   <diagram id="OMUdGuVzEnMAW-kTd0nw" name="Page-1">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -279,6 +279,32 @@
             <mxPoint x="230" y="890" as="sourcePoint" />
             <mxPoint x="280" y="840" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kxU_KykEc8hoC5HoStI7" name="Page-4">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZT1yG5SlVoaKDyJ_5Yj-1" target="2ZT1yG5SlVoaKDyJ_5Yj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-1" value="thread_handle_std_smc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="110" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="2ZT1yG5SlVoaKDyJ_5Yj-2" target="2ZT1yG5SlVoaKDyJ_5Yj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-2" value="&lt;font face=&quot;consolas, courier new, monospace&quot;&gt;thread_alloc_and_run&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;strokeWidth=2;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="205" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-6" value="&lt;font face=&quot;consolas, courier new, monospace&quot;&gt;__thread_alloc_and_run&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;strokeWidth=2;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZT1yG5SlVoaKDyJ_5Yj-8" value="&lt;div&gt;__thread_alloc_and_run最后一位为pc寄存器的值：&lt;/div&gt;&lt;div&gt;__thread_alloc_and_run(a0, a1, a2, a3, a4, a5, 0, 0,&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;thread_std_smc_entry);&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="335" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
