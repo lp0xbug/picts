@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T15:35:49.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="TuUwSgwVKfXPaRBBLMLB" version="17.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-16T15:44:56.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="pvOWGJDTki7a4JhxItkk" version="17.4.5" type="github" pages="5">
   <diagram id="OMUdGuVzEnMAW-kTd0nw" name="Page-1">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -329,8 +329,14 @@
             <mxPoint x="-29.997999999999905" y="129.79999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hylWc7U9sSnTWrO3Bf7p-7" value="偏移到thread_ctx.thread_ctx_reg.r12处" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="hylWc7U9sSnTWrO3Bf7p-7" value="r0指向thread_ctx&lt;br&gt;偏移到thread_ctx.thread_ctx_reg.r12处" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=13;align=left;" vertex="1" parent="1">
           <mxGeometry x="430" y="120" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hylWc7U9sSnTWrO3Bf7p-8" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=0.569;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="213" as="sourcePoint" />
+            <mxPoint x="-51.99800000000005" y="202.79999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
